@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1669999839663,
+  "timestamp": 1670001236100,
   "index": "/aarvy-landing/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/aarvy-landing/10.4831b34a0fb3072d.js",
+        "/aarvy-landing/10.3640b1969ba78b92.js",
         "/aarvy-landing/favicon.ico",
         "/aarvy-landing/index.html",
-        "/aarvy-landing/main.2f067bf2ae33d942.js",
+        "/aarvy-landing/main.baab2a415ffe267e.js",
         "/aarvy-landing/manifest.webmanifest",
         "/aarvy-landing/polyfills.229502b02929a346.js",
-        "/aarvy-landing/runtime.26feea155ac3cde2.js",
+        "/aarvy-landing/runtime.69983c33e4ca6327.js",
         "/aarvy-landing/styles.e6e3f8eef4f924c0.css"
       ],
       "patterns": []
@@ -77,7 +77,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/aarvy-landing/10.4831b34a0fb3072d.js": "05f979b9dd966d5edae6616e504244c3113b1528",
+    "/aarvy-landing/10.3640b1969ba78b92.js": "cd19a8481a489c85b92ca2d8c172892f71b1c2d7",
     "/aarvy-landing/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
     "/aarvy-landing/assets/css/bootstrap.css": "278f57e1b6cb9ec12af25c6bbaa3ddab1606b291",
     "/aarvy-landing/assets/css/ionicons.css": "a6ccf65cba33ad05bfa30de0c8785c01dbc03863",
@@ -120,11 +120,11 @@
     "/aarvy-landing/fa-solid-900.43a87668a828405a.ttf": "3eb9b4b2ea22711b96e3b356196fd20b4f17fb0e",
     "/aarvy-landing/fa-solid-900.71ed02b437225dbb.woff2": "c0e6e76b4a02c34656ff2a41b671e02f2821829b",
     "/aarvy-landing/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "/aarvy-landing/index.html": "d9f543f616a67907fdd783db43482b255de488fd",
-    "/aarvy-landing/main.2f067bf2ae33d942.js": "827f7a9f81e47ea17056a8d760e2f4d02f303d18",
+    "/aarvy-landing/index.html": "796d4be4884a309dafb32686ff3b5a78f2bfa1d0",
+    "/aarvy-landing/main.baab2a415ffe267e.js": "63dd73e2f6c64b0dcac9603228e95f6380bb8f9b",
     "/aarvy-landing/manifest.webmanifest": "9bb345fca37b834abd57c92c38d7ee230343f27d",
     "/aarvy-landing/polyfills.229502b02929a346.js": "52279a8a03566fab1579e7040c46f6bc89bc74fa",
-    "/aarvy-landing/runtime.26feea155ac3cde2.js": "adca3af1d080cafd875cbe942ee73f4316f692e0",
+    "/aarvy-landing/runtime.69983c33e4ca6327.js": "8782f4654d2985b6ca57dda6a6aa144220f54ffb",
     "/aarvy-landing/styles.e6e3f8eef4f924c0.css": "904396be2a67d85d6a50bd276d67d24d1f5fbeeb"
   },
   "navigationUrls": [
