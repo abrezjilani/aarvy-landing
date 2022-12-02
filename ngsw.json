@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1670002354719,
+  "timestamp": 1670002480183,
   "index": "/aarvy-landing/index.html",
   "assetGroups": [
     {
@@ -120,7 +120,7 @@
     "/aarvy-landing/fa-solid-900.43a87668a828405a.ttf": "3eb9b4b2ea22711b96e3b356196fd20b4f17fb0e",
     "/aarvy-landing/fa-solid-900.71ed02b437225dbb.woff2": "c0e6e76b4a02c34656ff2a41b671e02f2821829b",
     "/aarvy-landing/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "/aarvy-landing/index.html": "2fcaaaf348aff062008ddd8887a189f417f28f4b",
+    "/aarvy-landing/index.html": "3d8b881ea07a8a68c9fc34578e5f8be3c175b84a",
     "/aarvy-landing/main.0333d5f52ce9347c.js": "35e41d85f42e27e4462256d47155c7a879fdbe52",
     "/aarvy-landing/manifest.webmanifest": "9bb345fca37b834abd57c92c38d7ee230343f27d",
     "/aarvy-landing/polyfills.229502b02929a346.js": "52279a8a03566fab1579e7040c46f6bc89bc74fa",
