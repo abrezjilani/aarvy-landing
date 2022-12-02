@@ -1,0 +1,149 @@
+{
+  "configVersion": 1,
+  "timestamp": 1669999839663,
+  "index": "/aarvy-landing/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/aarvy-landing/10.4831b34a0fb3072d.js",
+        "/aarvy-landing/favicon.ico",
+        "/aarvy-landing/index.html",
+        "/aarvy-landing/main.2f067bf2ae33d942.js",
+        "/aarvy-landing/manifest.webmanifest",
+        "/aarvy-landing/polyfills.229502b02929a346.js",
+        "/aarvy-landing/runtime.26feea155ac3cde2.js",
+        "/aarvy-landing/styles.e6e3f8eef4f924c0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/aarvy-landing/apple-touch-icon.png",
+        "/aarvy-landing/assets/css/bootstrap.css",
+        "/aarvy-landing/assets/css/ionicons.css",
+        "/aarvy-landing/assets/css/jquery.classycountdown.css",
+        "/aarvy-landing/assets/css/responsive.css",
+        "/aarvy-landing/assets/css/styles.css",
+        "/aarvy-landing/assets/fonts/ionicons.eot",
+        "/aarvy-landing/assets/fonts/ionicons.svg",
+        "/aarvy-landing/assets/fonts/ionicons.ttf",
+        "/aarvy-landing/assets/fonts/ionicons.woff",
+        "/aarvy-landing/assets/img/aboutUs-vector.png",
+        "/aarvy-landing/assets/img/aboutUs1.jpg",
+        "/aarvy-landing/assets/img/aboutUs2.jpg",
+        "/aarvy-landing/assets/img/arvylog.png",
+        "/aarvy-landing/assets/img/c1.jpg",
+        "/aarvy-landing/assets/img/c2.jpg",
+        "/aarvy-landing/assets/img/c3.jpg",
+        "/aarvy-landing/assets/img/c4.jpg",
+        "/aarvy-landing/assets/img/c5.jpg",
+        "/aarvy-landing/assets/img/c6.jpg",
+        "/aarvy-landing/assets/img/form-img.png",
+        "/aarvy-landing/assets/img/form-vector.svg",
+        "/aarvy-landing/assets/img/gmaps-icon.png",
+        "/aarvy-landing/assets/img/icons8-hospital-48.png",
+        "/aarvy-landing/assets/ngx-rocket-logo.png",
+        "/aarvy-landing/assets/ngx-rocket-logo@192.png",
+        "/aarvy-landing/assets/scripts/TimeCircles.js",
+        "/aarvy-landing/assets/scripts/bootstrap.js",
+        "/aarvy-landing/assets/scripts/jquery-3.1.1.min.js",
+        "/aarvy-landing/assets/scripts/jquery.classycountdown.js",
+        "/aarvy-landing/assets/scripts/jquery.countdown.min.js",
+        "/aarvy-landing/assets/scripts/jquery.knob.js",
+        "/aarvy-landing/assets/scripts/jquery.throttle.js",
+        "/aarvy-landing/assets/scripts/scripts.js",
+        "/aarvy-landing/assets/scripts/tether.min.js",
+        "/aarvy-landing/fa-brands-400.0ad87b221b2a302b.woff2",
+        "/aarvy-landing/fa-brands-400.aaa8e2177da4fbb8.ttf",
+        "/aarvy-landing/fa-regular-400.0c4a336f909e1eaa.woff2",
+        "/aarvy-landing/fa-regular-400.f7cc78e99baa2bf5.ttf",
+        "/aarvy-landing/fa-solid-900.43a87668a828405a.ttf",
+        "/aarvy-landing/fa-solid-900.71ed02b437225dbb.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/aarvy-landing/10.4831b34a0fb3072d.js": "05f979b9dd966d5edae6616e504244c3113b1528",
+    "/aarvy-landing/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
+    "/aarvy-landing/assets/css/bootstrap.css": "278f57e1b6cb9ec12af25c6bbaa3ddab1606b291",
+    "/aarvy-landing/assets/css/ionicons.css": "a6ccf65cba33ad05bfa30de0c8785c01dbc03863",
+    "/aarvy-landing/assets/css/jquery.classycountdown.css": "14ef7a3de459f46cde6e69343f1177cfe53b40a6",
+    "/aarvy-landing/assets/css/responsive.css": "144f00ec1d1a6cf1fe28572e0d857ef5e95b9aee",
+    "/aarvy-landing/assets/css/styles.css": "e93b8d86e07899368c89046c37881ecdc1244a35",
+    "/aarvy-landing/assets/fonts/ionicons.eot": "61532e89e212f8dd16ba31f3ebcf35c0a7334035",
+    "/aarvy-landing/assets/fonts/ionicons.svg": "3f1ca28fcb042d2bcc6ee6a4e3dd817e5132eeea",
+    "/aarvy-landing/assets/fonts/ionicons.ttf": "1b0a0de084905946a20300ca8c354865dec46764",
+    "/aarvy-landing/assets/fonts/ionicons.woff": "e46819e863a46751d622c1190c4e8a83ebc20612",
+    "/aarvy-landing/assets/img/aboutUs-vector.png": "f85062ac1a3961a9679ecab8652e6662b9383e94",
+    "/aarvy-landing/assets/img/aboutUs1.jpg": "84b600566706b1c081897f0a3ef14cf3d4869573",
+    "/aarvy-landing/assets/img/aboutUs2.jpg": "5b74834c706a5ff9dcc0397b61e3a52161f1ccb3",
+    "/aarvy-landing/assets/img/arvylog.png": "bb84d6b126537c1ba5da895b03c2d0704ba96ed0",
+    "/aarvy-landing/assets/img/c1.jpg": "6e8398db56d969eb8321a2b3f4123ad2d19dab2e",
+    "/aarvy-landing/assets/img/c2.jpg": "4273ec96230b2aa08b4b16c1a8372fbeba98c511",
+    "/aarvy-landing/assets/img/c3.jpg": "ce1854a3b755e4098ec8f9e4152216d3224e0a15",
+    "/aarvy-landing/assets/img/c4.jpg": "f83b96afc8e02bf460e33dcfc3f8428d3df63f6e",
+    "/aarvy-landing/assets/img/c5.jpg": "cc99730535b6d35fbcf5e426681f20d60a817ce2",
+    "/aarvy-landing/assets/img/c6.jpg": "7f69768d141c897640472dc0ddd051b6799e4462",
+    "/aarvy-landing/assets/img/form-img.png": "7a056400c9eb46c75ac95aa0c2f5bdb2972b2821",
+    "/aarvy-landing/assets/img/form-vector.svg": "1d7fed57811fac5876695bf4bd9aa759b35b5684",
+    "/aarvy-landing/assets/img/gmaps-icon.png": "cff5d8d89436b82992b3e069966a332aa387c0ca",
+    "/aarvy-landing/assets/img/icons8-hospital-48.png": "ebdd4a570cd99421345bebafdd1133637dd1ee69",
+    "/aarvy-landing/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "/aarvy-landing/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "/aarvy-landing/assets/scripts/TimeCircles.js": "cdfd5b1ca62775beeb10e19af9b1dcd51d3221d0",
+    "/aarvy-landing/assets/scripts/bootstrap.js": "370e2aac3d72b489d39bff5c2cfb2705bf7a02d7",
+    "/aarvy-landing/assets/scripts/jquery-3.1.1.min.js": "8b807db6d99cd725672c3888dbe1ead7a02a413d",
+    "/aarvy-landing/assets/scripts/jquery.classycountdown.js": "6c4738ef931fea07b923583c1fdc474f5ef14e2f",
+    "/aarvy-landing/assets/scripts/jquery.countdown.min.js": "ecd0d0bb5d99f5762cd038eb5aa4c2318a70f864",
+    "/aarvy-landing/assets/scripts/jquery.knob.js": "24d774bfc2b91e33a569c127d93cc6b9648d6b31",
+    "/aarvy-landing/assets/scripts/jquery.throttle.js": "918bdccf3e78ce97377f8d0ebd89070a4be9e7d1",
+    "/aarvy-landing/assets/scripts/scripts.js": "572bcd8ebdd678f3c1920a0471daad054a838967",
+    "/aarvy-landing/assets/scripts/tether.min.js": "dba1b24d5ac805fc206aede41ceea1ee9f16f1a9",
+    "/aarvy-landing/fa-brands-400.0ad87b221b2a302b.woff2": "b99813b3c531d8fe90aed3b75d2ed71f8e0c87f4",
+    "/aarvy-landing/fa-brands-400.aaa8e2177da4fbb8.ttf": "a14a91d8c170fc9e159040f6794369d829e0859e",
+    "/aarvy-landing/fa-regular-400.0c4a336f909e1eaa.woff2": "3119676750af0e0bc338cc4aad220bdc72c56cc5",
+    "/aarvy-landing/fa-regular-400.f7cc78e99baa2bf5.ttf": "dad3ad71b383789bb62c249742ef59e34685e7d0",
+    "/aarvy-landing/fa-solid-900.43a87668a828405a.ttf": "3eb9b4b2ea22711b96e3b356196fd20b4f17fb0e",
+    "/aarvy-landing/fa-solid-900.71ed02b437225dbb.woff2": "c0e6e76b4a02c34656ff2a41b671e02f2821829b",
+    "/aarvy-landing/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "/aarvy-landing/index.html": "d9f543f616a67907fdd783db43482b255de488fd",
+    "/aarvy-landing/main.2f067bf2ae33d942.js": "827f7a9f81e47ea17056a8d760e2f4d02f303d18",
+    "/aarvy-landing/manifest.webmanifest": "9bb345fca37b834abd57c92c38d7ee230343f27d",
+    "/aarvy-landing/polyfills.229502b02929a346.js": "52279a8a03566fab1579e7040c46f6bc89bc74fa",
+    "/aarvy-landing/runtime.26feea155ac3cde2.js": "adca3af1d080cafd875cbe942ee73f4316f692e0",
+    "/aarvy-landing/styles.e6e3f8eef4f924c0.css": "904396be2a67d85d6a50bd276d67d24d1f5fbeeb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
