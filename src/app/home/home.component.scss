@@ -388,9 +388,10 @@ b.light-color {
 }
 
 #aboutUs-img {
-  width: 35%;
+  // width: 35%;
   height: auto;
   border-radius: 10px;
+  margin-top: 5%;
 }
 
 .aboutUs-text {
@@ -444,7 +445,7 @@ b.light-color {
   .form-btns {
     color: white;
     border-radius: 10px;
-    width: 50%;
+    width: 100%;
   }
   .left-half {
     background-color: map.get($theme-colors, "primary");

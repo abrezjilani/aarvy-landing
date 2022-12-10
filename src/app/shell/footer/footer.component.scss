@@ -58,6 +58,13 @@ a:hover {
   color: #fff;
   padding: 7rem 0;
   background-color: #141d2a;
+  .container {
+    .row {
+      .col-md {
+        margin-bottom: 10%;
+      }
+    }
+  }
 }
 .footer-main .container {
   position: relative;
