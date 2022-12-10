@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1670003526312,
+  "timestamp": 1670663400792,
   "index": "/aarvy-landing/index.html",
   "assetGroups": [
     {
@@ -14,11 +14,11 @@
         "/aarvy-landing/10.3640b1969ba78b92.js",
         "/aarvy-landing/favicon.ico",
         "/aarvy-landing/index.html",
-        "/aarvy-landing/main.2e7d694b88db3219.js",
+        "/aarvy-landing/main.d97e8781b7fde338.js",
         "/aarvy-landing/manifest.webmanifest",
         "/aarvy-landing/polyfills.229502b02929a346.js",
-        "/aarvy-landing/runtime.69983c33e4ca6327.js",
-        "/aarvy-landing/styles.e6e3f8eef4f924c0.css"
+        "/aarvy-landing/runtime.47de22e6d2de51ee.js",
+        "/aarvy-landing/styles.9a6c507d411d5669.css"
       ],
       "patterns": []
     },
@@ -120,12 +120,12 @@
     "/aarvy-landing/fa-solid-900.43a87668a828405a.ttf": "3eb9b4b2ea22711b96e3b356196fd20b4f17fb0e",
     "/aarvy-landing/fa-solid-900.71ed02b437225dbb.woff2": "c0e6e76b4a02c34656ff2a41b671e02f2821829b",
     "/aarvy-landing/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "/aarvy-landing/index.html": "5baa25cbfd64535abd4b129af77032bc768bbe1a",
-    "/aarvy-landing/main.2e7d694b88db3219.js": "2457097789e3fbb084aa53d4c45e650f0e6538e4",
+    "/aarvy-landing/index.html": "6b10ed6864b20109ef29b11de32edc0042f9a30a",
+    "/aarvy-landing/main.d97e8781b7fde338.js": "4a2c303074f1483ad5c0a2506e349c10180663bf",
     "/aarvy-landing/manifest.webmanifest": "9bb345fca37b834abd57c92c38d7ee230343f27d",
     "/aarvy-landing/polyfills.229502b02929a346.js": "52279a8a03566fab1579e7040c46f6bc89bc74fa",
-    "/aarvy-landing/runtime.69983c33e4ca6327.js": "8782f4654d2985b6ca57dda6a6aa144220f54ffb",
-    "/aarvy-landing/styles.e6e3f8eef4f924c0.css": "904396be2a67d85d6a50bd276d67d24d1f5fbeeb"
+    "/aarvy-landing/runtime.47de22e6d2de51ee.js": "abd5a8a5aeba954359c748068691dfc452f38400",
+    "/aarvy-landing/styles.9a6c507d411d5669.css": "8d738c9978cf83b1bc9ddd3eec81c174c6a18de9"
   },
   "navigationUrls": [
     {
