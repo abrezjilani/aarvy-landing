@@ -387,14 +387,18 @@ b.light-color {
   opacity: 0.3;
 }
 
-#aboutUs-vector {
+#aboutUs-img {
   width: 35%;
   height: auto;
   border-radius: 10px;
 }
 
+.aboutUs-text {
+  padding-right: 5%;
+}
 .aboutUs-title {
   color: #ec5423;
+  font-size: 1.3em;
 }
 
 .card-text {
@@ -416,7 +420,7 @@ b.light-color {
 
 #form-section {
   input {
-    width: 50%;
+    // width: 50%;
     padding: 1% 3% 1%;
   }
   // input:hover {

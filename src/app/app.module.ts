@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     FormsModule,
+    RouterModule.forRoot([{ path: 'home', component: HomeModule }], { anchorScrolling: 'enabled' }),
     HttpClientModule,
     RouterModule,
     TranslateModule.forRoot(),

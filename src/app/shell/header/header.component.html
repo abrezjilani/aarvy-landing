@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light navBg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img id="navLogo" src="assets/img/arvylog.png" alt="" /></a>
       <button
@@ -38,7 +38,13 @@
             >
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" aria-current="page" (click)="bookAnAppointment()"
+            <a
+              routerLink="/home"
+              fragment="form-section"
+              class="nav-link btn btn-primary"
+              id="navBtn"
+              aria-current="page"
+              (click)="bookAnAppointment()"
               ><i class="fa-solid fa-calendar-check navLink-icons navLink-icons--blue px-2"></i>Book an Appointment</a
             >
           </li>

@@ -37,7 +37,17 @@ a:hover {
   .ms-auto {
     #footer-btn {
       border-radius: 10px;
-      background-color: black;
+      color: #fff;
+      font-weight: 500;
+      background-color: #ec5423;
+      font-size: 1.2em;
+      transition: all 0.5s;
+    }
+
+    #footer-btn:hover {
+      color: #ec5423;
+      background-color: rgba(255, 255, 255, 0.9);
+      transform: translateY(-10px);
     }
   }
 }
@@ -119,6 +129,15 @@ a:hover {
 }
 
 .logo-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5%;
+  margin-top: 3%;
+  border-radius: 10px;
   width: 70%;
   height: auto;
+}
+
+.footer-link {
+  color: #ec5423;
+  text-decoration: none;
 }

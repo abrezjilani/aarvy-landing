@@ -5,6 +5,9 @@
 //   margin-bottom: $spacer;
 // }
 
+.navBg {
+  background-color: map.get($theme-colors, "light");
+}
 .nav-link.dropdown-toggle {
   cursor: pointer;
 }
@@ -24,6 +27,14 @@
       font-weight: 500;
       color: #000000;
       transition: all 0.5s;
+    }
+    #navBtn {
+      color: rgba($color: #ffffff, $alpha: 1);
+      border-radius: 10px;
+      padding-right: 20px;
+    }
+
+    #navBtn:hover {
     }
   }
 }
@@ -62,7 +73,8 @@
 }
 #navLogo {
   height: auto;
-  width: 50%;
+  width: 60%;
+  margin-left: 10%;
 }
 
 .navbar #slidingContainer {
