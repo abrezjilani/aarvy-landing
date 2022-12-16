@@ -7,6 +7,7 @@
 @import "theme/theme-variables";
 
 // 3rd party libraries
+/* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/brands";
@@ -15,3 +16,31 @@
 
 // Theme customization
 @import "theme/theme";
+
+.invalid {
+  &::after {
+    width: 100%;
+    font-weight: 700;
+    text-align: right;
+    position: absolute;
+    top: 100%;
+    bottom: 0px;
+    padding-right: 10px;
+    color: rgb(154, 67, 67);
+    font-size: 0.7rem;
+  }
+
+  input {
+    border-color: rgb(181, 69, 69);
+    background-color: #8536361f;
+  }
+
+  #email1 {
+    border-color: rgb(181, 69, 69);
+    background-color: #8536361f;
+  }
+
+  label {
+    color: rgb(181, 69, 69);
+  }
+}

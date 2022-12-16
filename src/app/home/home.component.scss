@@ -320,6 +320,7 @@ b.light-color {
 
 .left-section .footer-icons > li > a > i {
   display: inline-block;
+  font-size: 1.3em;
   height: 35px;
   line-height: 33px;
   transition: all 0.2s;
@@ -330,6 +331,7 @@ b.light-color {
 
 .left-section .footer-icons > li > a:hover > i {
   border: 1px solid;
+  transform: translateY(-10%);
 }
 
 .left-section .footer-icons > li > a > i[class*="facebook"] {
@@ -351,6 +353,20 @@ b.light-color {
 .left-section .footer-icons > li > a > i[class*="pinterest"] {
   color: #e1c013;
   border-color: #e1c013;
+}
+
+.emailLabel {
+  display: none;
+  transition: all 0.5s;
+}
+
+.invalid-error {
+  position: relative;
+  bottom: 65%;
+  left: 2%;
+  display: inline-block;
+  color: rgb(203, 42, 42);
+  font-size: 1em;
 }
 
 /* ---------------------------------
@@ -399,7 +415,7 @@ b.light-color {
 }
 .aboutUs-title {
   color: #ec5423;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .card-text {
@@ -480,11 +496,40 @@ b.light-color {
 /* ABOUT US Section */
 
 #about-us {
-  margin: 10% 3%;
+  margin: 5% 3%;
 }
 
-.aboutUs-cards {
-  border: 2px solid map.get($theme-colors, "primary");
+.aboutUs-card {
+  background-color: map.get($theme-colors, "secondary");
+  padding: 3% 2%;
+  border-radius: 10px;
+}
+
+/* MODAL SECTION */
+
+ng-template {
+  background-color: map.get($theme-colors, "secondary");
+}
+
+#modalHeader {
+  #modalTitle {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+  }
+}
+
+.modal-body {
+  #bodyText {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.modal-footer {
+  #modalBtn {
+    background-color: map.get($theme-colors, "primary");
+    color: white;
+  }
 }
 
 /* Screens Resolution : 992px

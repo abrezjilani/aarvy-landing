@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "aarvy-landing-prod"
+  },
+  "targets": {
+    "aarvy-landing-prod": {
+      "hosting": {
+        "aarvy-landing": [
+          "aarvy-landing-prod"
+        ]
+      }
+    }
   }
 }

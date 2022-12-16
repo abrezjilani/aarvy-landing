@@ -7,6 +7,15 @@
 import { env } from './.env';
 
 export const environment = {
+  firebase: {
+    projectId: 'aarvy-landing-prod',
+    appId: '1:526881833136:web:bb2a27ca397d045c687b75',
+    storageBucket: 'aarvy-landing-prod.appspot.com',
+    apiKey: 'AIzaSyBT98IOgp73BlqmRLemIN6mowY8vTim5HU',
+    authDomain: 'aarvy-landing-prod.firebaseapp.com',
+    messagingSenderId: '526881833136',
+    measurementId: 'G-1JEP2X8SEW',
+  },
   production: true,
   version: env['npm_package_version'],
   serverUrl: 'https://api.chucknorris.io',

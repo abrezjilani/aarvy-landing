@@ -12,11 +12,16 @@
               Our website is currently undergoing maintenance. We should be back shortly. Thank you for your patience.
             </p>
 
-            <div class="email-input-area">
-              <form method="post">
-                <input class="email-input" name="email" type="text" placeholder="Enter your email" />
-                <button class="submit-btn" name="submit" type="submit"><b>NOTIFY US</b></button>
-              </form>
+            <div class="email-input-area" id="emailContainer">
+              <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
+              <input
+                class="email-input floating-input"
+                name="email"
+                id="email1"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <button class="submit-btn" name="submit" type="submit" (click)="validateForm1()"><b>NOTIFY US</b></button>
             </div>
             <!-- email-input-area -->
 
@@ -31,16 +36,20 @@
       <ul class="footer-icons">
         <li>Stay in touch :</li>
         <li>
-          <a href="https://www.facebook.com/AarvyHealthcare"><i class="ion-social-facebook"></i></a>
+          <a href="https://www.facebook.com/AarvyHealthcare"><i class="ion-social-facebook footer-icon"></i></a>
         </li>
         <li>
-          <a href="https://twitter.com/HealthcareAarvy"><i class="ion-social-twitter"></i></a>
+          <a href="https://twitter.com/HealthcareAarvy"><i class="ion-social-twitter footer-icon"></i></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/aarvy-healthcare"><i class="ion-social-linkedin"></i></a>
+          <a href="https://www.linkedin.com/company/aarvy-healthcare"
+            ><i class="ion-social-linkedin footer-icon"></i
+          ></a>
         </li>
         <li>
-          <a href="https://www.instagram.com/aarvy_healthcare/"><i class="ion-social-instagram-outline"></i></a>
+          <a href="https://www.instagram.com/aarvy_healthcare/"
+            ><i class="ion-social-instagram-outline footer-icon"></i
+          ></a>
         </li>
       </ul>
     </section>
@@ -121,32 +130,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/IMG_2824.JPG" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/IMG_2824.JPG" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/aboutUs2.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
     </section>
 
     <!-- right-section -->
@@ -158,21 +141,21 @@
 <section id="about-us">
   <div class="about-title">
     <div class="container py-4">
-      <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold" style="color: #145c5c">About Us</h1>
+      <div class="p-5 mb-4 rounded-3 bg-light">
+        <div class="container-fluid pb-5">
           <div class="container-fluid d-flex flex-row card-text">
             <div class="row">
-              <div class="col-lg-8">
-                <p class="fs-4 my-2 aboutUs-text">
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold" style="color: #145c5c">About Us</h1>
+                <p class="fs-4 my-4 aboutUs-text">
                   <span class="aboutUs-title">Aarvy Healthcare Super Speciality Hospital</span> was founded by Dr.
                   Vikram Singh and Dr. Renu Yadav as an industry-transforming initiative. It is the first
                   state-of-the-art quaternary hospital in New Gurugram. Aarvy Healthcare is structured on contemporary
                   and environment-friendly technology.
                 </p>
               </div>
-              <div class="col-lg-4">
-                <img src="assets/img/c1.jpg" id="aboutUs-img" alt="" class="img-fluid" />
+              <div class="col-lg-6">
+                <img src="assets/img/c1.jpg" id="aboutUs-img" alt="" class="img-fluid h-100" />
               </div>
             </div>
           </div>
@@ -182,7 +165,7 @@
       </div>
 
       <div class="row align-items-md-stretch">
-        <div class="col-md-6">
+        <div class="col-lg-6 aboutUs-card">
           <div class="h-100 p-5 bg-light rounded-3">
             <img src="assets/img/c4.jpg" class="img-fluid rounded mt-1" alt="" />
 
@@ -195,7 +178,7 @@
             <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 aboutUs-card">
           <div class="h-100 p-5 bg-light rounded-3">
             <img src="assets/img/aboutUs2.jpg" class="rounded img-fluid" alt="" />
             <h2 class="card-text">It also offers an</h2>
@@ -219,29 +202,27 @@
       </div>
       <div class="col-md-6 right-half">
         <div class="container mx-auto">
-          <form action="" method="post">
-            <div class="mb-4">
-              <label for="inputFirstName" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="inputFirstName" aria-describedby="firstNameHelp" />
-            </div>
-            <div class="mb-4">
-              <label for="inputLastName" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="inputLastName" aria-describedby="LastNameHelp" />
-            </div>
-            <div class="mb-4">
-              <label for="inputContact" class="form-label">Contact Number</label>
-              <input type="number" class="form-control" id="inputContact" />
-            </div>
-            <div class="mb-4">
-              <label for="inputDate" class="form-label">Preferred Date</label>
-              <input type="date" class="form-control" id="inputDate" />
-            </div>
-            <div class="mb-4">
-              <label for="inputTime" class="form-label">Preferred Time</label>
-              <input type="time" class="form-control" id="inputTime" />
-            </div>
-            <a type="submit" class="btn btn-primary px-5 py-3 form-btns">Submit</a>
-          </form>
+          <div class="mb-4" id="fNameContainer">
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" aria-describedby="firstNameHelp" required />
+          </div>
+          <div class="mb-4" id="lNameContainer">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName" aria-describedby="LastNameHelp" />
+          </div>
+          <div class="mb-4" id="contactContainer">
+            <label for="inputContact" class="form-label">Contact Number</label>
+            <input type="number" class="form-control" id="inputContact" />
+          </div>
+          <div class="mb-4" id="dateContainer">
+            <label for="inputDate" class="form-label">Preferred Date</label>
+            <input type="date" min="{{ currentDate | date: 'yyyy-MM-dd' }}" class="form-control" id="inputDate" />
+          </div>
+          <div class="mb-4" id="timeContainer">
+            <label for="inputTime" class="form-label">Preferred Time</label>
+            <input type="time" class="form-control" id="inputTime" />
+          </div>
+          <a type="submit" class="btn btn-primary px-5 py-3 form-btns" (click)="validateForm2()">Submit</a>
         </div>
       </div>
     </div>
@@ -258,3 +239,41 @@
 <section id="logo-animation">
   <img src="assets/img/arvylog.png" alt="" srcset="" class="img-fluid" />
 </section>
+
+<ng-template #invite let-modal>
+  <div class="modal-header" id="modalHeader">
+    <h4 class="modal-title" id="modalTitle">Welcome Aboard! <i class="ion-checkmark-circled"></i></h4>
+    <!-- <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button> -->
+    <button class="btn-close" (click)="modal.dismiss('Cross click')"><i class="ion-close"></i></button>
+  </div>
+  <div class="modal-body">
+    <p class="modal-text">
+      You've been signed up for the mailing list. You'll get an invite as soon as the website goes live. Till then, you
+      can book your appointments on this page
+    </p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary-outline px-3 py-2" id="modalBtn" (click)="modal.close('Close click')">
+      Close
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #appointment let-modal>
+  <div class="modal-header" id="modalHeader">
+    <h4 class="modal-title" id="modalTitle">Appointment Booked! <i class="ion-checkmark-circled"></i></h4>
+    <!-- <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button> -->
+    <button class="btn-close" (click)="modal.dismiss('Cross click')"><i class="ion-close"></i></button>
+  </div>
+  <div class="modal-body">
+    <p class="modal-text">
+      Your preferred date and time has been recorded. We'll get back to you with further details about your appointment.
+      We look forward to seeing you!
+    </p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary-outline px-3 py-2" id="modalBtn" (click)="modal.close('Close click')">
+      Close
+    </button>
+  </div>
+</ng-template>

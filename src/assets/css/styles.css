@@ -2,16 +2,16 @@
 ====================================================
 
 * 	[Master Stylesheet]
-	
-	Theme Name :  
-	Version    :  
-	Author     :  
-	Author URI :  
+
+	Theme Name :
+	Version    :
+	Author     :
+	Author URI :
 
 ====================================================
 
 	TOC
-	
+
 	1. PRIMARY STYLES
 	2. COMMONS FOR PAGE DESIGN
 		JQUERY LIGHT BOX
@@ -374,9 +374,4 @@ b.light-color {
   z-index: -2;
   opacity: 0.3;
   background: linear-gradient(to right, #23074d, #cc5333);
-}
-
-#rounded-countdown {
-  width: 80%;
-  margin: 0 auto;
 }

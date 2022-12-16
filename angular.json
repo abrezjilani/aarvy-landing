@@ -125,7 +125,14 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "aarvy-landing:build:production",
+            "firebaseProject": "aarvy-landing-prod",
+            "firebaseHostingSite": "aarvy-landing-prod"
+          }
         }
       }
     }

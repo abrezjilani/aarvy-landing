@@ -2,3 +2,32 @@
  * Global application theme.
  * Framework overrides and customization goes here.
  */
+
+.modal-content {
+  background-color: #145c5c;
+  text-align: center;
+}
+
+.modal-header {
+  .modal-title {
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+  }
+}
+
+.modal-body {
+  .modal-text {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.modal-footer {
+  #modalBtn {
+    margin: 0 auto;
+    background-color: currentColor;
+    color: white;
+    border: 2px solid #ec5423;
+    border-radius: 3px;
+  }
+}

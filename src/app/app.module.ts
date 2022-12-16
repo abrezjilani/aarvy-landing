@@ -13,6 +13,11 @@ import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire//compat/firestore';
+// import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideAnalytics, getAnalytics, ScreenTrackingService, UserTrackingService } from '@angular/fire/analytics';
+// import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   imports: [
@@ -27,7 +32,9 @@ import { AppRoutingModule } from './app-routing.module';
     SharedModule,
     ShellModule,
     HomeModule,
-    AppRoutingModule, // must be imported as the last module as it contains the fallback route
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
   ],
   declarations: [AppComponent],
   providers: [
@@ -45,6 +52,8 @@ import { AppRoutingModule } from './app-routing.module';
       provide: RouteReuseStrategy,
       useClass: RouteReusableStrategy,
     },
+    ScreenTrackingService,
+    UserTrackingService,
   ],
   bootstrap: [AppComponent],
 })
