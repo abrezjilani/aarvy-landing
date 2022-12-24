@@ -1,31 +1,37 @@
 <div class="main-area">
-  <div class="container full-height position-static">
-    <section class="left-section full-height">
+  <div class="container">
+    <section class="left-section">
       <!-- <a class="logo" href="#"><img src="assets/img/arvylog.png" alt="Logo"></a> -->
 
       <div class="display-table">
         <div class="display-table-cell">
           <div class="main-content">
-            <h1 class="title"><b>Under Construction</b></h1>
-            <p class="sub-text">Good things take time!</p>
-            <p class="green-text">
-              Our website is currently undergoing maintenance. We should be back shortly. Thank you for your patience.
-            </p>
-
-            <div class="email-input-area" id="emailContainer">
-              <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
-              <input
-                class="email-input floating-input"
-                name="email"
-                id="email1"
-                type="text"
-                placeholder="Enter your email"
-              />
-              <button class="submit-btn" name="submit" type="submit" (click)="validateForm1()"><b>NOTIFY US</b></button>
+            <div class="logo_container">
+              <img src="assets/img/ah-logo.jpg" alt="" srcset="" class="img" />
             </div>
-            <!-- email-input-area -->
+            <div class="text-container">
+              <p class="sub-text">Relaunching the website soon!</p>
+              <p class="green-text">
+                Our website is currently undergoing maintenance. We should be back shortly. Thank you for your patience.
+              </p>
 
-            <p class="post-desc">Sign up now to get early notification of our launch date!</p>
+              <div class="email-input-area" id="emailContainer">
+                <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
+                <input
+                  class="email-input floating-input"
+                  name="email"
+                  id="email1"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="submit-btn" name="submit" type="submit" (click)="validateForm1()">
+                  <b>NOTIFY US</b>
+                </button>
+              </div>
+              <!-- email-input-area -->
+
+              <p class="post-desc">Sign up now to get early notification of our launch date!</p>
+            </div>
           </div>
           <!-- main-content -->
         </div>
@@ -54,83 +60,6 @@
       </ul>
     </section>
     <!-- left-section -->
-
-    <section class="right-section">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-        </div>
-        <div class="carousel-inner rounded">
-          <div class="carousel-item active">
-            <img src="assets/img/c1.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/c2.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/c3.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/c4.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/c5.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/c6.jpg" class="d-block w-100 carousel-images" alt="..." />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
 
     <!-- right-section -->
   </div>
@@ -194,7 +123,7 @@
   </div>
 </section>
 
-<section id="form-section" class="mt-5">
+<section id="form-section">
   <div class="container">
     <div class="row">
       <div class="col-md-6 left-half">
@@ -236,8 +165,85 @@
   <i class="fa-brands fa-whatsapp"></i>
 </a>
 
-<section id="logo-animation">
+<!-- <section id="logo-animation">
   <img src="assets/img/arvylog.png" alt="" srcset="" class="img-fluid" />
+</section> -->
+
+<section class="right-section">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="3"
+        aria-label="Slide 4"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="4"
+        aria-label="Slide 5"
+      ></button>
+    </div>
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="assets/img/c1.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/c2.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/c3.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/c4.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/c5.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/c6.jpg" class="d-block w-100 carousel-images" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </section>
 
 <ng-template #invite let-modal>
