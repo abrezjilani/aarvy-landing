@@ -6,13 +6,15 @@ import { HomeComponent } from './home.component';
 import { Shell } from '@app/shell/shell.service';
 import { FooterComponent } from '@app/shell/footer/footer.component';
 import { HeaderComponent } from '@app/shell/header/header.component';
+import { PolicyComponent } from '@app/policy/policy.component';
 
 const routes: Routes = [
   Shell.childRoutes([
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent, data: { title: marker('Home') } },
+    { path: 'home', component: HomeComponent, data: { title: marker('Aarvy Healthcare') } },
     { path: 'footer', component: FooterComponent },
     { path: 'header', component: HeaderComponent },
+    { path: 'policy', component: PolicyComponent },
   ]),
 ];
 

@@ -1,0 +1,31 @@
+@use "sass:map";
+@import "src/theme/theme-variables";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap");
+
+#mainHeading {
+  font-weight: 400;
+  color: map.get($theme-colors, "secondary");
+  margin: 3% auto;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 1.5%;
+}
+
+.links {
+  text-decoration: none;
+  color: map.get($theme-colors, "secondary");
+  font-weight: 600;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}

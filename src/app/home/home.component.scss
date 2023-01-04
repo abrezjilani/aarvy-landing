@@ -233,7 +233,7 @@ b.light-color {
   float: left;
   width: 100%;
   position: relative;
-  margin-bottom: 20%;
+  // margin-bottom: 20%;
   .main-content {
     padding: 0;
     margin: 0 auto;
@@ -510,12 +510,29 @@ b.light-color {
 /* FIRST SCREEN */
 
 .logo_container {
-  width: 25%;
+  width: 45%;
   height: 5%;
   margin: 0 auto;
   img {
     height: 60%;
   }
+}
+
+.link-container {
+  display: none;
+}
+
+.portal-link {
+  background-color: map.get($theme-colors, "primary");
+  color: white;
+  margin: 7% auto;
+}
+
+.form-heading {
+  display: none;
+  font-size: 1.3em;
+  margin: 5% auto;
+  color: map.get($theme-colors, "secondary");
 }
 
 /* ABOUT US Section */
@@ -653,6 +670,13 @@ ng-template {
 
   body {
     font-size: 12px;
+  }
+
+  .link-container {
+    display: block;
+  }
+  .form-heading {
+    display: block;
   }
 }
 

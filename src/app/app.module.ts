@@ -17,6 +17,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire//compat/firestore';
 // import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideAnalytics, getAnalytics, ScreenTrackingService, UserTrackingService } from '@angular/fire/analytics';
+import { PolicyComponent } from './policy/policy.component';
 // import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
@@ -36,7 +37,7 @@ import { provideAnalytics, getAnalytics, ScreenTrackingService, UserTrackingServ
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, PolicyComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
