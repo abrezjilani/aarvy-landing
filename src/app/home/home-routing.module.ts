@@ -14,7 +14,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent, data: { title: marker('Aarvy Healthcare') } },
     { path: 'footer', component: FooterComponent },
     { path: 'header', component: HeaderComponent },
-    { path: 'policy', component: PolicyComponent },
+    { path: 'privacy_policy', component: PolicyComponent },
   ]),
 ];
 
