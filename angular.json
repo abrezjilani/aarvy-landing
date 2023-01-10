@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "aarvy-landing"
+  "defaultProject": "aarvy-landing",
+  "cli": {
+    "analytics": false
+  }
 }

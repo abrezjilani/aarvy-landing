@@ -5,9 +5,45 @@
 //   margin-bottom: $spacer;
 // }
 
-.navBg {
-  background-color: map.get($theme-colors, "light");
+#navContainer {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 0;
+  margin-top: 2%;
 }
+
+#logoContainer {
+  padding-right: 0;
+  margin-right: 0;
+  width: 95%;
+  height: auto;
+}
+
+.nav1 {
+  background-color: map.get($theme-colors, "primary");
+  width: 55%;
+  padding: 0.3% 3%;
+  height: 40%;
+  margin-top: 35px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 10px 5px map.get($theme-colors, "secondary");
+}
+
+.nav2 {
+  width: 20%;
+  background-color: #ffffff;
+  margin-left: 25%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0 10px 3px map.get($theme-colors, "secondary");
+  cursor: pointer;
+}
+
+.navLogo {
+  min-width: 100%;
+}
+
 .nav-link.dropdown-toggle {
   cursor: pointer;
 }
@@ -25,16 +61,8 @@
     .nav-link {
       font-size: 1.1em;
       font-weight: 500;
-      color: #000000;
+      color: #ffffff;
       transition: all 0.5s;
-    }
-    #navBtn {
-      color: rgba($color: #ffffff, $alpha: 1);
-      border-radius: 10px;
-      padding-right: 20px;
-    }
-
-    #navBtn:hover {
     }
   }
 }
@@ -42,7 +70,7 @@
 .navbar {
   .navbar-nav {
     .nav-link:hover {
-      color: #ec5423;
+      color: map.get($theme-colors, "secondary");
     }
   }
 }
@@ -77,11 +105,6 @@
   margin-left: 10%;
 }
 
-.navbar #slidingContainer {
-  padding-inline: 0;
-  padding-bottom: 0;
-}
-
 .navbar .sliding-text {
   background-color: #145c5c;
   color: #ffffff;
@@ -106,12 +129,6 @@
 //     }
 //   }
 // }
-
-.nav-item {
-  #emergency-link {
-    color: rgb(192, 0, 0);
-  }
-}
 
 .navLink-icons {
   font-size: inherit;

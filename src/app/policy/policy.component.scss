@@ -2,10 +2,17 @@
 @import "src/theme/theme-variables";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap");
 
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 5%;
+  padding: 3% 4%;
+  border-radius: 25px;
+}
+
 #mainHeading {
   font-weight: 400;
   color: map.get($theme-colors, "secondary");
-  margin: 3% auto;
+  margin: 0 auto;
 }
 
 .text {
