@@ -20,4 +20,12 @@ export class HeaderComponent implements OnInit {
   bookAnAppointment() {
     this.router.navigate([], { fragment: 'form-section' });
   }
+
+  menuClick() {
+    var menu = document.getElementById('mobile-menu') as HTMLDivElement;
+    var nav = document.getElementById('navContent') as HTMLDivElement;
+    // console.log(nav)
+    nav.classList.toggle('mobile-nav');
+    menu.classList.toggle('is-active');
+  }
 }

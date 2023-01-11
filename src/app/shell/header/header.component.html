@@ -11,6 +11,7 @@
           aria-controls="navbarText"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="color: white"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +23,7 @@
                 href="https://patientportal.aarvyhealthcare.com/"
                 target="_blank"
                 aria-current="page"
-                >Patient Portal</a
+                ><i class="fa-solid fa-hospital-user navLink-icons px-2"></i>Patient Portal</a
               >
             </li>
             <li class="nav-item me-3" id="gmap-link">
@@ -41,7 +42,9 @@
                 fragment="form-section"
                 class="nav-link"
                 aria-current="page"
+                target="_blank"
                 (click)="bookAnAppointment()"
+                data-bs-toggle="collapse"
                 ><i class="fa-solid fa-calendar-check navLink-icons px-2"></i>Book Appointment</a
               >
             </li>
@@ -54,5 +57,50 @@
         <img src="../../../assets/img/ah-logo-mod.jpg" class="navLogo" alt="" srcset="" />
       </div>
     </nav>
+  </div>
+  <div id="nav2Container">
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img src="../../../assets/img/ah-logo-mod.jpg" alt="Company Logo" />
+        <div class="menu-toggle" id="mobile-menu" (click)="menuClick()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav no-search" id="navContent">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="https://patientportal.aarvyhealthcare.com/"
+              target="_blank"
+              aria-current="page"
+            >
+              <i class="fa-solid fa-hospital-user navLink-icons px-2"></i>Patient Portal</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.google.com/maps/place/Aarvy+Healthcare:+OPD+Services/@28.4124315,76.9068114,13z/data=!4m5!3m4!1s0x390d3de3435baee7:0x99eb3254919dd297!8m2!3d28.4124268!4d76.9418303"
+              ><i class="fa-solid fa-map-location-dot navLink-icons px-2"></i>Locate Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel: 8800049055"><i class="fa-solid fa-hospital px-2"></i>Emergency</a>
+          </li>
+          <li class="nav-item">
+            <a
+              routerLink="/home"
+              fragment="form-section"
+              class="nav-link"
+              aria-current="page"
+              (click)="bookAnAppointment()"
+              ><i class="fa-solid fa-calendar-check navLink-icons px-2"></i>Book Appointment</a
+            >
+          </li>
+        </div>
+      </nav>
+    </div>
   </div>
 </header>

@@ -212,10 +212,6 @@ b.light-color {
   height: 100%;
 }
 
-.position-static {
-  position: static;
-}
-
 .main-area {
   position: relative;
   height: 100%;
@@ -232,8 +228,10 @@ b.light-color {
   // margin-bottom: 20%;
   .main-content {
     padding: 0;
-    margin: 0 auto;
+    position: relative;
+    margin: 4rem auto 0;
     text-align: center;
+    z-index: 10;
   }
 }
 
@@ -248,10 +246,6 @@ b.light-color {
   width: 50%;
 }
 
-.left-section .main-content {
-  padding: 40px 40px 40px 0;
-}
-
 .main-content .title {
   margin-bottom: 15px;
 }
@@ -260,8 +254,13 @@ b.light-color {
   display: none;
 }
 
+.primary {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .central-heading {
-  width: 40%;
+  // width: 40%;
   margin: 2% auto;
   padding-bottom: 3%;
   border-bottom: 3px solid map.get($theme-colors, "primary");
@@ -271,8 +270,9 @@ b.light-color {
   font-size: 2em;
   line-height: 35px;
   text-align: center;
+  font-style: italic;
   color: rgba(255, 255, 255, 1);
-  width: 50%;
+  // width: 50%;
   margin: 0 auto;
 }
 
@@ -285,13 +285,14 @@ b.light-color {
 .main-h2 {
   font-weight: 400;
   font-size: 3.5em;
+
   color: white;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .email-container {
-  width: 50%;
-  height: auto;
+  // width: 50%;
+  // height: auto;
   margin: 5% auto;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 1);
@@ -302,10 +303,11 @@ b.light-color {
 .email-container .email-input-area .email-input {
   width: 70%;
   height: 3em;
+  float: left;
   border-radius: 40px 0 0 40px;
   border: 2px solid transparent;
   outline: 0;
-  padding: 0 140px 0 25px;
+  padding: 0 20px 0 25px;
   transition: all 0.2s;
   background: #f1f2f3;
 }
@@ -332,12 +334,12 @@ b.light-color {
   font-size: 0.9em;
   font-weight: 500;
   // font-style: italic;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .left-section .footer-icons {
-  width: 50%;
-  margin: 0 auto;
+  // width: 50%;
+  margin: 7% auto 0;
   // float: right;
   // bottom: 30px;
 }
@@ -386,23 +388,26 @@ b.light-color {
 .right-section {
   // position: absolute;
   position: relative;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  margin-bottom: 20%;
   // width: 50%;
   width: 90%;
-  min-height: 100vh;
+  // min-height: 100vh;
   background-size: cover;
-  z-index: 1;
+  z-index: 10;
   border-bottom-left-radius: 10px;
 
   //new changes
   margin: 5% auto;
 
   .carousel-inner {
+    border-radius: 25px;
+    width: 90%;
+    margin: 7% auto;
+    // box-shadow: -5px 10px 5px map.get($theme-colors, "secondary");
+    box-shadow: map.get($theme-colors, "secondary") 0px 14px 28px, map.get($theme-colors, "secondary") 0px 10px 10px;
     .carousel-images {
       object-fit: cover;
-      min-height: 100vh;
+      min-height: 100%;
     }
   }
 }
@@ -431,6 +436,7 @@ b.light-color {
 
 #form-section {
   margin-top: 10%;
+  margin-bottom: 10%;
   input {
     // width: 50%;
     padding: 1% 3% 1%;
@@ -442,16 +448,17 @@ b.light-color {
     font-weight: 500;
   }
   .row {
-    border-radius: 10px;
     border: 2px solid map.get($theme-colors, "primary");
+    border-radius: 25px;
+    width: 90%;
+    margin: 0 auto;
   }
   .right-half {
-    border-left: 2px solid map.get($theme-colors, "primary");
+    // border-left: 2px solid map.get($theme-colors, "primary");
     padding: 5% 3% 5%;
     margin: 0 auto;
     background-color: #ffffff;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 0 25px 25px 0;
     .container {
       margin: 0 auto;
     }
@@ -464,8 +471,8 @@ b.light-color {
   .left-half {
     background-color: map.get($theme-colors, "primary");
     padding: 5% 3% 5%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
   }
 }
 
@@ -550,6 +557,21 @@ ng-template {
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 992px) {
+  .primary {
+    width: 60%;
+    margin-top: 20%;
+  }
+  .main-h1 {
+    font-size: 4em;
+  }
+  .main-h2 {
+    font-size: 2.5em;
+    margin-bottom: 3%;
+  }
+  .central-text {
+    font-size: 1.5em;
+  }
+
   .main-area {
     position: relative;
     // height: 200vh;
@@ -571,11 +593,16 @@ ng-template {
   }
 
   .main-content .email-input-area .email-input {
-    padding: 0 115px 0 20px;
+    padding: 0 20px 0 20px;
   }
 
   .main-content .email-input-area .submit-btn {
-    width: 100px;
+    // width: 100px;
+  }
+
+  .post-label {
+    margin-top: 15%;
+    padding-inline: 5%;
   }
 
   .left-section .footer-icons > li > a > i {
@@ -593,14 +620,6 @@ ng-template {
     bottom: auto;
     width: 100%;
     height: 50%;
-  }
-
-  .date-countdown {
-    width: 100%;
-  }
-
-  .date-countdown .time_circles > div > h4 {
-    font-size: 0.7em !important;
   }
 }
 
@@ -626,6 +645,31 @@ ng-template {
   h3 {
     font-size: 1.8em;
   }
+
+  .primary {
+    width: 70%;
+    margin-top: 20%;
+  }
+
+  .main-h1 {
+    font-size: 3em;
+  }
+  .main-h2 {
+    font-size: 2em;
+    margin-bottom: 3%;
+  }
+  .central-text {
+    font-size: 1.5em;
+  }
+
+  #form-section {
+    .left-half {
+      border-radius: 25px 25px 0 0;
+    }
+    .right-half {
+      border-radius: 0 0 25px 25px;
+    }
+  }
 }
 
 /* Screens Resolution : 479px
@@ -639,11 +683,52 @@ ng-template {
     font-size: 12px;
   }
 
+  .primary {
+    width: 90%;
+    margin-top: 30%;
+  }
+
+  .main-h1 {
+    font-size: 3em;
+  }
+  .main-h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  .central-text {
+    font-size: 1.3em;
+  }
+
+  .main-content .email-input-area .email-input {
+    height: 39px;
+  }
+
+  .main-content .email-input-area .submit-btn {
+    font-size: 0.7em;
+    height: 39px;
+    padding: 3%;
+  }
+
+  .email-container {
+    padding: 5%;
+  }
+
   .link-container {
     display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
   }
   .form-heading {
     display: block;
+    color: map.get($theme-colors, "secondary");
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+  }
+
+  .right-section {
+    margin-bottom: 40%;
+    margin-top: 20%;
   }
 }
 
