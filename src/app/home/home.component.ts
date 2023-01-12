@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   validateForm1() {
     var mail = (document.getElementById('email1') as HTMLInputElement).value;
     if (this.isValidEmail(mail)) {
-      (document.getElementById('emailLabel') as HTMLLabelElement).classList.remove('invalid-error');
+      (document.getElementById('email-container') as HTMLLabelElement).classList.remove('invalid');
       this.modalService.dismissAll('Form Submitted');
       this.modalService.open(this.invite, { windowClass: 'dark-modal', centered: true });
       this.store
@@ -36,8 +36,7 @@ export class HomeComponent implements OnInit {
         });
       return true;
     } else {
-      (document.getElementById('emailContainer') as HTMLDivElement).classList.add('invalid');
-      (document.getElementById('emailLabel') as HTMLLabelElement).classList.add('invalid-error');
+      (document.getElementById('email-container') as HTMLDivElement).classList.add('invalid');
       return false;
     }
   }

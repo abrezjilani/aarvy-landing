@@ -1,11 +1,7 @@
 <div class="main-area">
   <div class="container">
     <section class="left-section">
-      <!-- <a class="logo" href="#"><img src="assets/img/arvylog.png" alt="Logo"></a> -->
       <div class="main-content pt-0">
-        <!-- <div class="logo_container">
-          <img src="assets/img/ah-logo.jpg" alt="" srcset="" class="img-fluid" />
-        </div> -->
         <div class="primary">
           <div class="central-heading">
             <p class="main-h1">Relaunching</p>
@@ -14,9 +10,9 @@
           <div class="central-text">
             Our website is currently undergoing maintenance. We should be back shortly. Thank you for your patience.
           </div>
-          <div class="email-container">
+          <div class="email-container" id="email-container">
+            <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
             <div class="email-input-area">
-              <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
               <input
                 class="email-input floating-input"
                 name="email"
@@ -50,30 +46,6 @@
               ></a>
             </li>
           </ul>
-        </div>
-
-        <div class="text-container">
-          <p class="sub-text">Relaunching the website soon!</p>
-          <p class="green-text">
-            Our website is currently undergoing maintenance. We should be back shortly. Thank you for your patience.
-          </p>
-
-          <div class="email-input-area" id="emailContainer">
-            <label for="email1" class="emailLabel" id="emailLabel">Invalid Input</label>
-            <input
-              class="email-input floating-input"
-              name="email"
-              id="email1"
-              type="text"
-              placeholder="Enter your email"
-            />
-            <button class="submit-btn" name="submit" type="submit" (click)="validateForm1()">
-              <b>NOTIFY US</b>
-            </button>
-          </div>
-          <!-- email-input-area -->
-
-          <p class="post-desc">Sign up now to get early notification of our launch date!</p>
         </div>
       </div>
     </section>

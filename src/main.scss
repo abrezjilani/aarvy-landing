@@ -34,18 +34,27 @@
     border-color: rgb(181, 69, 69);
     background-color: #8536361f;
   }
-
-  #email1 {
-    border-color: rgb(181, 69, 69);
-    background-color: #8536361f;
+  .email-input-area {
+    #email1 {
+      border-color: rgb(181, 69, 69);
+      background-color: #8536361f;
+    }
   }
-
-  label {
-    color: rgb(181, 69, 69);
+  #emailLabel {
+    // color: rgb(221, 56, 56);
+    display: block;
   }
 }
 
 body {
   background-image: url("./assets/img/bg.jpg");
   background-size: contain;
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    background-image: url("./assets/img/mobile-bg.jpg");
+    background-size: contain;
+    font-size: 12px;
+  }
 }
